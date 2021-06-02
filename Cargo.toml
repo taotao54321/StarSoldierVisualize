@@ -1,0 +1,12 @@
+[package]
+name = "starsoldier-visualize"
+version = "0.1.0"
+authors = ["taotao54321 <taotao54321@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+eyre = "0.6.5"
+grid-vis = { git = "https://github.com/taotao54321/grid-vis.git" }
+image = "0.23.14"
+imageproc = "0.22.0"
+structopt = "0.3.21"
