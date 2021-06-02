@@ -646,6 +646,7 @@ dependencies = [
  "grid-vis",
  "image",
  "imageproc",
+ "itertools 0.10.0",
  "structopt",
 ]
 
