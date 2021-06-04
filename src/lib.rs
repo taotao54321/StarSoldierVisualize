@@ -1,3 +1,3 @@
 mod rom;
 
-pub use rom::*;
+pub use crate::rom::*;
