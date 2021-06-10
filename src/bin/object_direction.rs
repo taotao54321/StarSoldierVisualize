@@ -83,7 +83,7 @@ impl GridVis for Grid {
     fn cell_text(&self, x: usize, y: usize) -> Option<(String, [u8; 3])> {
         match self.cells[y][x] {
             GridCell::Empty => None,
-            GridCell::Origin => Some(("自".to_owned(), [0x00, 0x00, 0x00])),
+            GridCell::Origin => Some(("敵".to_owned(), [0x00, 0x00, 0x00])),
             GridCell::Dir(idx) => {
                 const COLORS: &[[u8; 3]] = &[
                     [0x00, 0x00, 0x00],
