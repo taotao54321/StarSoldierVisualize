@@ -63,13 +63,13 @@ impl GridVis for Grid {
     }
 
     fn cell_width(&self) -> u32 {
-        32
+        24
     }
     fn cell_height(&self) -> u32 {
-        32
+        24
     }
     fn font_size(&self) -> u32 {
-        32
+        24
     }
 
     fn cell_color(&self, x: usize, y: usize) -> [u8; 3] {
